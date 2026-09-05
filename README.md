@@ -6,6 +6,7 @@ EDA and visualization of emotions in 1500 films (1920–2023)
 - 1500 films reduced to 1473 after cleaning (27 films were missing emotion scores)
 - Covers films from 1920 to 2023
 - Each film scored on multiple emotions using NLP-based analysis
+- The 2020s contain only 53 films, so trends for this decade should be interpreted with caution due to the smaller sample size
 
 ## Tools Used
 - Python, Pandas, Matplotlib, Seaborn
@@ -25,7 +26,7 @@ Happiness peaks among films rated 80–90, then declines consistently for films 
 ### 4. Emotions shifted after 1980
 Pre-1980: Resentment led, Hope followed, particularly in the 1960s
 
-Post-1980: Hope took over as the dominant emotion. Compassion fell out of the top three emotions, replaced by Happiness. This suggests a shift in the emotional profile of films over time, with more recent films showing a greater association with happiness rather than compassion, although they are similar emotions, this might conclude to fantastical themes making a resurgence over films that pull the audience to pour sympathy for real life inspired films or fictional movies.
+Post-1980: Hope took over as the dominant emotion. Compassion fell out of the top three emotions, replaced by Happiness. This suggests a shift in the emotional profile of films over time, with more recent films showing a greater association with happiness rather than compassion, although they are similar emotions, suggesting that fantastical themes made a resurgence over films that pull the audience to pour sympathy for real life inspired films or fictional movies.
 
 ## Charts
 
