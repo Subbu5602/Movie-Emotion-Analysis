@@ -1,6 +1,8 @@
 # Movie Emotion Analysis
 EDA and visualization of emotions in 1500 films (1920–2023)
 
+> **Problem Statement:** Does the emotional profile of a film's plot predict its IMDB rating — Do critics and audiences respond to different emotions when rating movies
+
 ## About the Dataset
 - Source: [Kaggle — Movie Feelings Dataset](https://www.kaggle.com/datasets/yakdemir/movie-feelings-emotion-features-for-1500-films)
 - 1500 films reduced to 1473 after cleaning (27 films were missing emotion scores)
