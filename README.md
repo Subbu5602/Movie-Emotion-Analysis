@@ -1,7 +1,7 @@
 # Movie Emotion Analysis
 EDA and visualization of emotions in 1500 films (1920–2023)
 
-> **Problem Statement:** Does the emotional profile of a film's plot predict its IMDB rating — Do critics and audiences respond to different emotions when rating movies
+> **Problem Statement:** Does the emotional profile of a film's plot predict its IMDB rating — and do critics and audiences respond to different emotions when rating movies?
 
 ## About the Dataset
 - Source: [Kaggle — Movie Feelings Dataset](https://www.kaggle.com/datasets/yakdemir/movie-feelings-emotion-features-for-1500-films)
@@ -30,6 +30,16 @@ Pre-1980: Resentment led, Hope followed, particularly in the 1960s
 
 Post-1980: Hope took over as the dominant emotion. Compassion fell out of the top three emotions, replaced by Happiness. This suggests a shift in the emotional profile of films over time, with more recent films showing a greater association with happiness rather than compassion, although they are similar emotions, suggesting that fantastical themes made a resurgence over films that pull the audience to pour sympathy for real life inspired films or fictional movies.
 
+### 5. Hope leads in plot feeling ratings
+Among dominant plot feelings with 50+ films, hope-led films rate highest (75.92) 
+while surprise-led films rate lowest (71.65). Bravery is the most common plot feeling 
+but sits in the mid-range of average ratings - thus frequency doesn't equal quality.
+
+### 6. Critics and audiences diverge on hope
+Both value resentment and compassion similarly, but audiences reward hope 
+significantly more than critics (0.19 vs 0.075). Critics lean toward darker 
+emotions — sadness and despair correlate stronger with Metascore ratings than IMDB ratings.
+
 ## Charts
 
 ### Correlation Between Emotions and IMDB Rating
@@ -41,8 +51,16 @@ Post-1980: Hope took over as the dominant emotion. Compassion fell out of the to
 ### Dominant Emotions by Decade
 <img src="visuals/BarPlot%20for%20showing%20the%20top%204%20emotions%20in%20every%20decade.png" width="800"/>
 
+### Average IMDB Rating by Dominant Plot Feeling
+<img src="visuals/Average%20Rating%20by%20Major%20Plot%20Feeling.png" width="700"/>
+
+### What Do Critics vs Audiences Value?
+<img src="visuals/Critics%20VS%20Audience.png" width="700"/>
+
 ## Conclusions
 - Hope is the defining emotion of highly rated cinema for at least 4 decades
 - The greatest films balance hope with darkness (despair, resentment) — not pure fantastical happiness
 - Cinema shifted from resentment-driven to hope-driven storytelling around 1980
 - Disgust is the only emotion observed in the heatmap to be negatively correlated with IMDB ratings
+- Films with Hope as the dominant plot feeling rate highest among all dominant plot feelings
+- Audiences reward hope significantly more than critics, who lean toward darker emotions like sadness and despair for ratings
